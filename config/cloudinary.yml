@@ -1,19 +1,19 @@
 ---
 development:
   cloud_name: cwaldock
-  api_key: ENV['COUDINARY_API']
-  api_secret: ENV['COUDINARY_SECRET_API']
+  api_key: <%= ENV['CLOUDINARY_API'] %>
+  api_secret: <%= ENV['CLOUDINARY_SECRET_API'] %>
   enhance_image_tag: true
   static_image_support: false
 production:
   cloud_name: cwaldock
-  api_key: ENV['COUDINARY_API']
-  api_secret: ENV['COUDINARY_SECRET_API']
+  api_key: <%= ENV['CLOUDINARY_API'] %>
+  api_secret: <%= ENV['CLOUDINARY_SECRET_API'] %>
   enhance_image_tag: true
   static_image_support: true
 test:
   cloud_name: cwaldock
-  api_key: ENV['COUDINARY_API']
-  api_secret: ENV['COUDINARY_SECRET_API']
+  api_key: <%= ENV['CLOUDINARY_API'] %>
+  api_secret: <%= ENV['CLOUDINARY_SECRET_API'] %>
   enhance_image_tag: true
   static_image_support: false
