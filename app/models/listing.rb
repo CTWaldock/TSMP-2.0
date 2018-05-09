@@ -1,4 +1,6 @@
 class Listing < ApplicationRecord
+  mount_uploader :image, ListingImageUploader
+
   if Rails.env.development?
     has_attached_file :image, :styles => { :medium => "200x", :thumb => "100x100>" }, :default_url => "default.svg.png"
   else
@@ -15,5 +17,4 @@ class Listing < ApplicationRecord
 
   belongs_to :user
 
-  mount_uploader :image, ListingImageUploader
 end
