@@ -11,8 +11,6 @@ gem "paperclip", "~> 6.0.0"
 gem 'bootstrap-sass', '~> 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -55,3 +53,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Added at 2018-05-09 10:45:00 +1000 by claytonwaldock:
+gem "pg", "~> 1.0"
+
+# Added at 2018-05-09 10:52:08 +1000 by claytonwaldock:
+gem "dotenv", "~> 2.4"
+
+# Added at 2018-05-09 10:55:50 +1000 by claytonwaldock:
+gem "dotenv-rails", "~> 2.4"
