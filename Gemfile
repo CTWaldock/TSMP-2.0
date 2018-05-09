@@ -62,3 +62,9 @@ gem "dotenv", "~> 2.4"
 
 # Added at 2018-05-09 10:55:50 +1000 by claytonwaldock:
 gem "dotenv-rails", "~> 2.4"
+
+# Added at 2018-05-09 11:31:18 +1000 by claytonwaldock:
+gem "carrierwave", "~> 1.2"
+
+# Added at 2018-05-09 11:31:43 +1000 by claytonwaldock:
+gem "cloudinary", "~> 1.9"

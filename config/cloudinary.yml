@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: cwaldock
+  api_key: '962477167556369'
+  api_secret: ARklV2dpAfX5XcDdjUSBNAeAGxQ
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: cwaldock
+  api_key: '962477167556369'
+  api_secret: ARklV2dpAfX5XcDdjUSBNAeAGxQ
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: cwaldock
+  api_key: '962477167556369'
+  api_secret: ARklV2dpAfX5XcDdjUSBNAeAGxQ
+  enhance_image_tag: true
+  static_image_support: false
