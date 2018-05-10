@@ -5,27 +5,28 @@
 }
 
 body {
-  background-color: #F5F5F1;
+  background-color: #cccccc;
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-default {
-  background-color: #EFEFEB;
+  background-color: #828282	;
+  height: 10vh;
 }
 
 .navbar-default .navbar-brand {
-  font-family: guardian-egyptt, georgia, serif;
-  font-weight: 400;
-  color: #d5641c;
+  font-family: sans-serif, serif;
+  font-weight: 600;
+  color: #e1b600;
   font-size: 30px;
 }
 
 .navbar-default .navbar-nav > li > a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
-  color: #0192B5;
+  color: #cccccc;
 }
 
 
