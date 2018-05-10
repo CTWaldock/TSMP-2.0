@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :listings
+  resources :listings do
+    resources :orders
+  end
+
   resources :charges
   get 'pages/about'
 
