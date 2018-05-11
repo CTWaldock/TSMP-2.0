@@ -1,5 +1,7 @@
 ## Live heroku
 [Live site](https://tsmp.herokuapp.com/)
+## Git repo
+[TSMP](https://github.com/CTWaldock/TSMP-2.0)
 
 # TSMP My First Two Sided Marketplace
 
