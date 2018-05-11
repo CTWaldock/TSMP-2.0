@@ -28,7 +28,7 @@ I used [Trello](https://trello.com/b/jaClaPRW/tsmp) to make my user stories, out
 
 ## Wireframe
 
-![Wire frame](/Users/claytonwaldock/Desktop/rails/tsmp-2.0/app/assets/images/TSMP wire frame 2.jpg "Wireframe")
+![Wire frame](/app/assets/images/TSMP wire frame 2.jpg "Wireframe")
 
 ## Built With
 
