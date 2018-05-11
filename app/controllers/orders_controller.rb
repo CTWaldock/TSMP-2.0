@@ -27,18 +27,26 @@ class OrdersController < ApplicationController
     @order.buyer_id = current_user.id
     @order.seller_id = @seller.id
 
-    Stripe.api_key = ENV["STRIPE_API_KEY"]
-   token = params[:stripeToken]
+    # Stripe.api_key = ENV["SECRET_KEY"]
+    # token = params[:stripeToken]
 
    begin
+
+     customer = Stripe::Customer.create(
+       :email => params[:stripeEmail],
+       :source => params[:stripeToken]
+     )
+
      charge = Stripe::Charge.create(
+       :customer => customer.id,
        :amount => (@listing.price * 100).floor,
        :currency => "aud",
-       :card => token
+       # :card => token
        )
      flash[:notice] = "Order is on it's way!"
    rescue Stripe::CardError => e
      flash[:danger] = e.message
+     redirect_to order_path @order
    end
 
     respond_to do |format|
